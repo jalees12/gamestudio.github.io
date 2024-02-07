@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+nav{
+    padding-top: 35px;
+    font-size: 20px !important;
+    font-weight: 800;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(12, 127, 185, 0.849), rgb(89, 131, 147)),url('BG5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(100, 14, 14, 0.719);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a .img_w{
+    width: 100px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.banner-container {
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.banner-container.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.left-section h1 {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.left-section p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(23, 17, 17, 0.884);
+    margin-top: 18px;
+    line-height: 20px;
+}
+
+.left-section button {
+    color: #2098ca;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    /* Center the button */
+    margin: 0 auto;
+    display: block;
+}
+
+.right-section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.219);
+}
+
+.right-section h4 {
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(136, 136, 136);
+}
+
+.input-group {
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-group label {
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+    position: absolute;
+    top: 10px; 
+     transition: 0.5s ease-in-out; 
+}
+
+.input-group input {
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    color: #2098ca;
+    border-bottom: 1px solid #c9c9c98a;
+}
+
+/* .input-group input:focus ~ label,
+.input-group input:focus ~ label {
+    color: aquamarine;
+    top: -10px;
+    font-size: 12px;
+} */
+
+/* .input-group input:focus,
+.input-group input:focus ~ label {
+    border-color: aquamarine;
+    top: -10px;
+    font-size: 12px;
+} */
+
+/* Customize your styles here */
+.card {
+    margin-bottom: 20px;
+}
+/* Footer */
+footer {
+    width:100%;
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px 0; /* Add padding to top and bottom */
+}
