@@ -7,19 +7,20 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel ="stylesheet" href="style.css" />
     <style>
-      li{
-        list-style-type: none;
-      }
-    </style>
+      nav ul li{
+       list-style-type: none; 
+      
+     }
+   </style>
 </head>
 <body>
     <header>
         <div class="container">
             <a href="index.html"><img class="img_w" src="game_logo.png"></a>
             <nav>
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="contact.html">CONTACT</a>
+                <a href="index.html" >HOME</a>
+                <a href="about.html" >ABOUT</a>
+                <a href="contact.html" >CONTACT</a>
             </nav>
         </div>
     </header>
@@ -31,7 +32,8 @@
               <div class="col-md-6 left-section">
                   <h1>WELCOME TO GAME ZONE</h1>
                   <p>Computer games are fun activities you play on your computer. They come in many types like racing cars, fighting monsters, or building cities. Some games are for one player, while others let many players join in. With these games, you can do things or go places you can’t in real life. They can help you think better, react faster, and learn new things. But remember, playing too much is not good. Always balance your time between games, schoolwork, and outside play. This way, you can enjoy computer games while also doing well in school and staying healthy.</p>
-                <button><a href="index.html">Register</a></button>
+                  <a href="login.html" class="btn">Register</a>
+                  <div class="clickable-block" onclick="location.href='login.html';"></div>
               </div>
               
 
@@ -39,7 +41,7 @@
                       <h4>Login the form</h4>
                       <form action="game.html" autocomplete="off">
                         <div class="input-group">
-                            <input type="email" id="email" required placeholder="Email"/>
+                            <input type="email" id="email" required  placeholder="Email"/>
                             
                         </div>
                         <div class="input-group">
@@ -47,8 +49,9 @@
                             
                         </div>
                         <div class="left-section">
-                            <button type="submit" class="submit-button">Login</button>
-                        </div>
+                          <a href="game.html" class="btn">Login</a>
+                  <div class="clickable-block" onclick="location.href='index.html';"></div>
+                      </div>
                     </form>
                   </div>
                 </div>
@@ -86,18 +89,20 @@
         <!-- Page Menus -->
         <div class="col-md-4">
           <h5>Page Menus</h5>
+          <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <!-- Add more menu items as needed -->
           </ul>
+        </nav>
         </div>
 
         <!-- Contact Email -->
         <div class="col-md-4">
           <h5>Contact</h5>
-          <p>Email: muhammedjalees36@gmail.com</p>
+          <p>Email: <a href="mailto:info@example.com">muhammedjalees36@gmail.com</a></p>
         </div>
       </div>
     </div>
